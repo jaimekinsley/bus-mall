@@ -15,31 +15,31 @@
     </header>
 
 <main>
-    <section id="product-selection">
-        
-        <h2 id="product-name"></h2>
-        
+    <form id="product-form">
+
         <div id="product-container">
-            <label class="product-left">
-                <input type="radio" name="product" value="">
-                <img width="200" height="200" src="">
+            
+            <label id="product-left" class="product-label">
+                <span id="product-name1"></span>                <input type="radio" name="product" value="">
+                <img id = 'image-1' src="" alt="">
             </label>
 
-            <div id="product-container">
-                <label class="product-center">
-                    <input type="radio" name="product" value="">
-                    <img width="200" height="200" src="">
+            <label id="product-center" class="product-label">
+                <span id="product-name2"></span>  
+                    <input type="radio" name="product">
+                    <img id = 'image-2' src="" alt="">
                 </label>
 
-            <div id="product-container">
-                <label class="product-right">
+            <label id="product-right" class="product-label">
+                <span id="product-name3"></span>  
                     <input type="radio" name="product" value="">
-                        <img width="200" height="200" src="">
+                    <img id = 'image-3' src="" alt="">
                 </label> 
         </div>
+    </form>
 
-        <p id="next-container" clas="hidden">
-            <button id="next-button">Next</button>
+        <p id="next-container" class="hidden">
+            <button type="submit" form= "product-form" id="next-button">Next</button>
         </p>
 
     </section>
