@@ -49,7 +49,7 @@ const cthulhu = {
 const dogDuck = {
     id: 'dog-duck',
     image: 'dog-duck.jpg',
-    name: 'Duck dog Thing'
+    name: 'Duck Dog Mask'
 };
 
 const dragon = {
@@ -61,7 +61,7 @@ const dragon = {
 const pen = {
     id: 'pen',
     image: 'pen.jpg',
-    name: 'Pen Utensil'
+    name: 'Utensil Pen'
 };
 
 const petSweep = {
@@ -85,7 +85,7 @@ const shark = {
 const sweep = {
     id: 'sweep',
     image: 'sweep.png',
-    name: 'Baby Sweep'
+    name: 'Baby Sweeper'
 };
 
 const tauntaun = {
