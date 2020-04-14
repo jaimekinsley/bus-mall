@@ -15,6 +15,7 @@ const button = document.getElementById('next-button');
 
 // get one random product
 function getRandomProduct(productArray){
+    console.log(productArray);
     const randomIndex = Math.floor(Math.random() * productArray.length);
     return productArray[randomIndex];
 }
@@ -27,8 +28,9 @@ function getThreeProducts(){
 
 // make sure all three are different
     while (productOne.id === productTwo.id || productTwo.id === productThree.id || productThree.id === productOne.id){
-        productOne = getRandomProduct();
-        productTwo = getRandomProduct();
+        productOne = getRandomProduct(productArray);
+        productTwo = getRandomProduct(productArray);
+        productThree = getRandomProduct(productArray);
     }
 
 // display the images on the HTML
