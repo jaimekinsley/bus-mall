@@ -10,8 +10,44 @@
 </head>
 
 <body>
+    <header>
+        <h1>Choose a Product</h1>
+    </header>
+
+<main>
+    <section id="product-selection">
+        
+        <h2 id="product-name"></h2>
+        
+        <div id="product-container">
+            <label class="product-left">
+                <input type="radio" name="product" value="">
+                <img width="200" height="200" src="">
+            </label>
+
+            <div id="product-container">
+                <label class="product-center">
+                    <input type="radio" name="product" value="">
+                    <img width="200" height="200" src="">
+                </label>
+
+            <div id="product-container">
+                <label class="product-right">
+                    <input type="radio" name="product" value="">
+                        <img width="200" height="200" src="">
+                </label> 
+        </div>
+
+        <p id="next-container" clas="hidden">
+            <button id="next-button">Next</button>
+        </p>
+
+    </section>
+</main>
+
 
     <script type="module" src="app.js"></script>
+    <script type="module" src="./common/utils.js"></script>
 </body>
 
 </html>
