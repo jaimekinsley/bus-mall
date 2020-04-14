@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Choose a Product</h1>
+        <h2>Which of these would you buy?</h2>
+    </header>
+
+<main>
+    <form id="product-form">
+
+        <div id="product-container">
+            
+            <label id="product-left" class="product-label">
+                <span id="product-name1"></span>                <input type="radio" name="product" value="">
+                <img id = 'image-1' src="" alt="">
+            </label>
+
+            <label id="product-center" class="product-label">
+                <span id="product-name2"></span>  
+                    <input type="radio" name="product">
+                    <img id = 'image-2' src="" alt="">
+                </label>
+
+            <label id="product-right" class="product-label">
+                <span id="product-name3"></span>  
+                    <input type="radio" name="product" value="">
+                    <img id = 'image-3' src="" alt="">
+                </label> 
+        </div>
+    </form>
+
+        <p id="next-container" class="hidden">
+            <button type="submit" form= "product-form" id="next-button">Next</button>
+        </p>
+
+    </section>
+</main>
+
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="./common/utils.js"></script>
+</body>
+
+</html>
